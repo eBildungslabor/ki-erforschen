@@ -2,17 +2,32 @@
 <html lang="de">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta charset="UTF-8">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
     <script src="js/common.js"></script>
-    <title>🤖 KI-Tüftellabor</title>
+    <title>🤖 KI erforschen</title>
+
+    <style>
+        .hidden-prompt {
+            display: none;
+        }
+    </style>
+
+    <script>
+        function copyPrompt() {
+            const prompt = document.getElementById('prompt-text').textContent;
+            navigator.clipboard.writeText(prompt)
+                .then(() => alert('Prompt wurde kopiert!'))
+                .catch(() => alert('Kopieren fehlgeschlagen.'));
+        }
+    </script>
 </head>
+
 <body>
 
 <header class="container">
-        
-<h1><a href="index.html">🤖 KI-Tüftellabor</a></h1>
-        <p>Erkundungen, Austausch und Reflexion zu Künstlicher Intelligenz</p>
+    <h1><a href="index.html">🤖 KI erforschen</a></h1>
+    <p>Erkundungen, Austausch und Reflexion zu Künstlicher Intelligenz</p>
     <hr>
 </header>
         <main class="container">
@@ -52,7 +67,7 @@ Ergebnisse, Ergänzungen und weitere Ideen kannst du in <a href="https://idea.ki
 </main>
  <footer class="container">
      <p><hr></p>
-      <small>Konzipiert und erstellt von Nele aus dem <a href="https://ebildungslabor.de.de">eBildungslabor</a> für die <a href="https://www.politische-jugendbildung-et.de/">Evangelische Trägergruppe für gesellschaftspolitische Jugendbildung</a> im Juni 2025 •
+      <small>Konzipiert und erstellt von Nele aus dem <a href="https://ebildungslabor.de.de">eBildungslabor</a> für die <a href="https://www.stiftung-kinder-forschen.de/">Stiftung Kinder forschen</a> im Juli 2025 •
         Lizenz: <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.de"
           >CC0 1.0</a
         ></small>
