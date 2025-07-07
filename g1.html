@@ -5,27 +5,31 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
     <script src="js/common.js"></script>
-    <title>🤖 KI-Tüftellabor</title>
+    <title>🤖 KI erforschen</title>
 
+    <style>
+        .hidden-prompt {
+            display: none;
+        }
+    </style>
 
     <script>
-      function copyPrompt() {
-        const prompt = document.getElementById('prompt-text').textContent;
-        navigator.clipboard.writeText(prompt)
-          .then(() => alert('Prompt wurde kopiert!'))
-          .catch(() => alert('Kopieren fehlgeschlagen.'));
-      }
+        function copyPrompt() {
+            const prompt = document.getElementById('prompt-text').textContent;
+            navigator.clipboard.writeText(prompt)
+                .then(() => alert('Prompt wurde kopiert!'))
+                .catch(() => alert('Kopieren fehlgeschlagen.'));
+        }
     </script>
 </head>
 
 <body>
 
 <header class="container">
-    <h1><a href="index.html">🤖 KI-Tüftellabor</a></h1>
+    <h1><a href="index.html">🤖 KI erforschen</a></h1>
     <p>Erkundungen, Austausch und Reflexion zu Künstlicher Intelligenz</p>
     <hr>
 </header>
-
 <main class="container">
     <h2>Soziale KI-Nutzung #1: KI-Sprachmodell als Moderatorin</h2>
 
