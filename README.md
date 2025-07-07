@@ -1,3 +1,3 @@
-# KI-Tüftellabor
+# K erforschen
 
-Für ein bundesweites Treffen der [Evangelischen Trägergruppe gesellschaftspolitischer Jugendbildung](https://www.politische-jugendbildung-et.de/) habe ich hier zahlreiche Erkundungsmöglichkeiten zu KI erstellt und kuratiert. Das Ziel ist es, diese im Rahmen eines KI-Tüftellabors geneinsam auszuprobieren.
+Für eine Fortbildung bei der [Stiftung Kinder forschen](https://www.stiftung-kinder-forschen.de/) habe ich hier zahlreiche Erkundungsmöglichkeiten zu KI erstellt und kuratiert, die gemeinsam ausprobiert werden können.
