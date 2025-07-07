@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <script src="js/common.js"></script>
+    <title>🤖 KI erforschen</title>
+
+    <style>
+        .hidden-prompt {
+            display: none;
+        }
+    </style>
+
+    <script>
+        function copyPrompt() {
+            const prompt = document.getElementById('prompt-text').textContent;
+            navigator.clipboard.writeText(prompt)
+                .then(() => alert('Prompt wurde kopiert!'))
+                .catch(() => alert('Kopieren fehlgeschlagen.'));
+        }
+    </script>
+</head>
+
+<body>
+
+<header class="container">
+    <h1><a href="index.html">🤖 KI erforschen</a></h1>
+    <p>Erkundungen, Austausch und Reflexion zu Künstlicher Intelligenz</p>
+    <hr>
+</header>
+        <main class="container">
+            
+        <h2>Erweiterung #6: Einen eigenen KI-Server einrichten</h2>
+
+        <p>Anstatt sich bei der KI-Nutzung in ein Silo zu begeben und sich von einer bestimmten Plattform und Modell abhängig zu machen, kannst du dich der Challenge stellen, dir einen eigenen KI-Server einzurichten. Das ist weniger kompliziert, als es vielleicht klingt. Im Team mit 5-6 Kolleg*innen kostet solch ein Projekt ca. 10 Euro/ Monat.
+        <p>Ich habe meine Erfahrungen dazu und eine schrittweise Anleitung <a href="https://ebildungslabor.de/blog/so-gestaltest-du-dir-einen-eigenen-ki-server/">auf meinem Blog veröffentlicht.</a>.</p>
+    <p> <p><a href="index.html"><button>⬅ Zurück zur Übersicht</button></a></p>
+    </main>
+
+   
+
+
+</body>
+
+</html>
